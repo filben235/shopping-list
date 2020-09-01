@@ -1,11 +1,65 @@
+html{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	background-size: cover;
+	background: #94bbe9;
+	background-repeat: no-repeat;
+	background: linear-gradient( to left top, #94bbe9, #eeaeca);
+}
+
+body {
+	height:97%;
+}
+h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#userInput {
+	padding: 1.5vmin 3vmin;
+	text-align: left;
+	border-radius: 10px;
+	border-color: #94bbe9;
+	font-size: 1rem;
+}
+button {
+	border-radius: 10px;
+	font-size: 1rem;
+	padding: 1vmin 2vmin;
+	color: white;
+	text-shadow: 1px 1px black;
+	background-color: #94bbe9;
+	border-color: #94bbe9;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
 ul li.checked {
 	text-decoration: line-through;
 }
 
-li button {
-	margin: 0 1vmin;
+.container {
+	height: 100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container ul {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    min-height: 0px;
 }
 
 li {
-	font-size: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 2vh 0;
+	font-size: 1.5rem;
 }
