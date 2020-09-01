@@ -1,0 +1,11 @@
+ul li.checked {
+	text-decoration: line-through;
+}
+
+li button {
+	margin: 0 1vmin;
+}
+
+li {
+	font-size: 2rem;
+}
