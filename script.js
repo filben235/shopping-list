@@ -1,5 +1,5 @@
 var button= document.getElementById("enter");
-var clearButton = document.getElementById("clear");
+// var clearButton = document.getElementById("clear");
 var input= document.getElementById("userInput");
 var ul= document.querySelector("ul");
 var listItems= document.getElementsByTagName("li");
@@ -37,9 +37,9 @@ button.addEventListener("click", function( ) {
 	createListElement();
 })
 
-clearButton.addEventListener("click", function() {
-	document.getElementById("list").innerHTML = "";
-})
+// clearButton.addEventListener("click", function() {
+// 	document.getElementById("list").innerHTML = "";
+// })
 
 input.addEventListener("keypress", function() {
 	if (event.keyCode === 13) {
